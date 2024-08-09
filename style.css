@@ -87,7 +87,7 @@ body{
 .container{
     display: flex;
     min-height: 450px;
-    max-width: 1200px;
+    width: 850px;
     position: absolute;
     background-color: white;
     top: 50%;
@@ -99,8 +99,16 @@ body{
 .container > h1{
     font-size: 1em;
 }
-
-
+.input_box{
+  height: 2rem;
+  border-radius: 5px;
+  box-shadow: none;
+  width: 90%;
+  margin: 0 auto;
+}
+.mortgage_term::placeholder, .interest_rate::placeholder{
+  background-color: aliceblue;
+}
 /* working left side */
 .flex_child_left{
     width: 100%;
@@ -136,3 +144,4 @@ body{
 .result_text{
   text-align: center;
 }
+

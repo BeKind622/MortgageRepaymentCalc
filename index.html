@@ -30,18 +30,20 @@
       <div class="mortgage_input">
         <div class="flex col">
         <label for="mortgage_amount">Mortgage Amount</label>
-        <input type="number" id="mortgage_amount">
+        <input type="number" id="mortgage_amount" class="input_box">
       </div>
-      <div class="flex col">
-        <label for="mortgage_term">Mortgage term</label>
-        <input type="number" id="mortgage_term">
-      </div>
-        
-      <div>
-        <label for="interest_rate">Interest Rate</label>
-        <input type="number" id="interest_rate">
-      </div>
-        
+      <div class="flex">
+        <div class="flex col">
+          <label for="mortgage_term">Mortgage term</label>
+          <input type="number" id="mortgage_term" class="input_box" > 
+          <label for="mortgage_term">years</label>
+        </div>
+       
+        <div class="flex col">
+          <label for="interest_rate">Interest Rate</label>
+          <input type="number" id="interest_rate" class="input_box" >
+        </div>
+    </div>
       </div>
         <div class="mortgage_tick_list">
               <h2>Mortgage Type</h2>
@@ -56,8 +58,9 @@
               </div>
               Interest Only
         </div>
-        Calculate Repayments
+       <button> Calculate Repayments</button>
     </form>
+    
   </div>
   </div>
     <div class="Flex_child_right">
